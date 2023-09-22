@@ -1,0 +1,24 @@
+h2 {
+	float: left;
+}
+
+div {
+	float: left;
+	display: flex;
+	width: 25%;
+	padding: 5px;
+}
+
+textarea {
+	width: 100%;
+	height:150px;
+}
+
+body {
+	background: skyblue;
+}
+
+button {
+	width: 150px;
+	height: 25px;
+}
