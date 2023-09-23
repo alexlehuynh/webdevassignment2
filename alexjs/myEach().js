@@ -6,6 +6,6 @@ function myEach(arr, callback) {                //takes in arguments of an array
     for (let i = 0; i < arr.length; i++) {      //iterates through each element in given array
       callback(arr[i]);                         //assigns arr[i] to callback and passes this back as an argument into myEach()
     }   
-  }
+}
   
  
