@@ -8,17 +8,21 @@
     <p>Usage: Comma separated function name and args in the Arguments Text Box; Comma separated array in Input text box</p>
     <h2> Input: </h2>
     <div class = "container">
-        <textarea class = "input"></textarea>
+        <form id = "form1">
+            Array Elements:<br> <input type="text" name="in"><br>
+        <form>
     </div>
     
     <h2> Arguments: </h2>
     <div class = "container">
-        <textarea class = "argument"></textarea>
+        <form id = "form2">
+            Array Elements:<br> <input type="text" id="argument" name="arg"><br>
+        </form>
     </div>
 
     <h2> Output: </h2>
     <div class = "container">
-        <textarea class = "output"></textarea>
+        <textarea id = "output"></textarea>
     </div>
     <button id="Run">Run Input</button>
     <script src="choudhs.js"></script>
